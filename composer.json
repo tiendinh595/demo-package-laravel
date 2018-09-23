@@ -1,0 +1,17 @@
+{
+    "name": "dinhvt/demo-package-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tiendinh595",
+            "email": "tiendinh595@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dinhvt\\Demo\\": "src/"
+        }
+    }
+}
