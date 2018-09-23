@@ -13,5 +13,15 @@
         "psr-4": {
             "Dinhvt\\Demo\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dinhvt\\Demo\\DemoServiceProvider"
+            ],
+            "aliases": {
+                "Demo": "Dinhvt\\Demo\\Facade"
+            }
+        }
     }
 }
